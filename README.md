@@ -194,6 +194,9 @@ TO BE ADDED
 
 -Fixed bugs:
 
+- AWS bucket needed to be recreated as the initial attempt failed to load static folder. The issue was resolved by recreating the bucket in S3 AWS.
+- The Product Management url needed to be corrected in base.html file in order for the admin to be redirected to the correct Product Management page.
+
 -Unfixed bugs:
 
 
